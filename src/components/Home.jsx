@@ -62,7 +62,7 @@ const Home = () => {
     },
     {
       id: 9,
-      Name: "chickentikka",
+      Name: "Chickentikka",
       src: chickentikka,
       price: "₹300",
     },
@@ -75,10 +75,10 @@ const Home = () => {
   ];
 
   return (
-    <div className="lg:grid grid-cols-3 gap-3 mx-5 my-5 md:grid  sm:flex sm:flex-col ">
+    <div className="lg:grid grid-cols-3 gap-3 mx-5 my-5 md:grid sm:flex sm:flex-col  ">
       {foods.map((foods, index) => (
         <div key={index} className="py-1 border rounded-lg ">
-          <div className="flex items-center lg:space-x-4  sm:text-xs ">
+          <div className="flex items-center lg:space-x-4 ">
             <img
               src={foods.src}
               alt={`Gallery Image ${index + 1}`}

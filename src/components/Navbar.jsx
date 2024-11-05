@@ -3,14 +3,14 @@ import logo from "../assets/Logo.png";
 
 const Navbar = () => {
   return (
-    <div className="flex items-center justify-between mx-4">
-      <div className="flex items-center space-x-5">
+    <div className="flex items-center justify-between lg:mx-4 sm:mx-2 md:mx-3">
+      <div className="flex items-center lg:space-x-5 sm:space-x-1 md:space-x-2">
         <img src={logo} alt="" />
         <h1>Foody</h1>
       </div>
 
-      <div className="flex items-center space-x-4">
-        <input type="text" className="border rounded-md" />
+      <div className="flex items-center lg:space-x-4 md:space-x-1 sm:space-x-0">
+        <input type="text" className="border rounded-md sm:w-8 lg:w-20" />
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -42,7 +42,7 @@ const Navbar = () => {
             />
           </svg>
         </button>
-        <button className="flex items-center bg-red-600 text-white rounded-xl p-2">
+        <button className="flex items-center bg-red-600 text-white rounded-xl p-2 md:p-1 sm:p-1 sm:text-sm">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
