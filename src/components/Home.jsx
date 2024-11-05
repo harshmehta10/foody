@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Burger from "../assets/Burger.svg";
 import BoiledEgg from "../assets/BoiledEgg.svg";
-import Grilledchicken from "../assets/Grilledchicken.svg";
+import Grilledchicken from "../assets/GrilledChicken.svg";
 import Pancake from "../assets/Pancake.svg";
 import Ramen from "../assets/Ramen.svg";
 import vegetablesalad from "../assets/Vegetable salad.svg";
